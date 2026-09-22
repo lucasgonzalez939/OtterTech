@@ -1,0 +1,131 @@
+/* Variables con la paleta de la Nutria Marina */
+:root {
+    --obsidiana: #1A1615;
+    --marron-chocolate: #4E3B31;
+    --gris-platino: #968A80;
+    --blonde-arena: #DFD5C6;
+    --azul-glaciar: #3A9BB0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--obsidiana);
+    color: var(--blonde-arena);
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--obsidiana) 0%, var(--marron-chocolate) 100%);
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 3px solid var(--azul-glaciar);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.brand-title {
+    font-size: 3.5rem;
+    color: var(--blonde-arena);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.tech-highlight {
+    color: var(--azul-glaciar);
+}
+
+.story-snippet {
+    margin: 25px 0;
+    color: var(--blonde-arena);
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Botón de Acción Principal */
+.btn-primary {
+    background-color: var(--azul-glaciar);
+    color: var(--obsidiana);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    background-color: #4cb2c9;
+}
+
+/* Sección de Servicios */
+.services-container {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: var(--azul-glaciar);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: #241f1d; /* Un tono ligeramente más claro que el fondo abisal */
+    border: 1px solid var(--marron-chocolate);
+    padding: 25px;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+.card:hover {
+    border-color: var(--azul-glaciar);
+}
+
+.card h4 {
+    color: var(--blonde-arena);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: var(--gris-platino);
+    font-size: 0.95rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid var(--marron-chocolate);
+    font-size: 0.9rem;
+    color: var(--gris-platino);
+}
+
+.footer a {
+    color: var(--azul-glaciar);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
