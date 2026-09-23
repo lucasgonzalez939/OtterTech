@@ -4,7 +4,7 @@ const otterTechContent = {
     branding: {
         titlePart1: "Otter",
         titlePart2: "Tech",
-        slogan: "Soluciones informaticas aún cuando las aguas son dificiles",
+        slogan: "Soluciones informáticas aún cuando las aguas son dificiles",
         story: "Las nutrias marinas se toman de la mano para que la corriente no las lleve, en <strong>OtterTech</strong> nos aseguramos de que nuestros clientes nunca queden atrás. Cuidamos tus equipos con la confianza y el compromiso que te merecés."
     },
     
