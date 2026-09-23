@@ -4,15 +4,15 @@ const otterTechContent = {
     branding: {
         titlePart1: "Otter",
         titlePart2: "Tech",
-        slogan: "Soporte tecnológico que no te suelta la mano",
-        story: "Al igual que las nutrias marinas se toman de la mano para que la corriente no las separe, en <strong>OtterTech</strong> nos aseguramos de que la tecnología nunca te deje atrás. Cuidamos tus equipos con la confianza y el compromiso que te merecés."
+        slogan: "Soluciones informaticas aún cuando las aguas son dificiles",
+        story: "Las nutrias marinas se toman de la mano para que la corriente no las lleve, en <strong>OtterTech</strong> nos aseguramos de que nuestros clientes nunca queden atrás. Cuidamos tus equipos con la confianza y el compromiso que te merecés."
     },
     
     // Configuración de Canales de Contacto
     contact: {
         whatsappPhone: "5491100000000", // REEMPLAZAR con tu número real (sin el +)
-        whatsappMessage: "Hola OtterTech! Necesito ayuda con soporte técnico para una computadora.",
-        email: "hola@ottertech.com.ar",
+        whatsappMessage: "Hola, OtterTech! Necesito ayuda con una computadora.",
+        email: "info@ottertech.com.ar",
         buttonText: "¿Necesitás ayuda con tu PC? Escribinos",
         copyright: `© ${new Date().getFullYear()} OtterTech. Todos los derechos reservados.`
     },
@@ -21,16 +21,16 @@ const otterTechContent = {
     servicesSectionTitle: "Nuestros Servicios para el Hogar",
     services: [
         {
-            titulo: "🛠️ Servicio Rescate (Stream)",
+            titulo: "🌐 Servicio Stream",
+            descripcion: "Configuración y optimización de redes hogareñas WiFi y Cable. Chau problemas de señal o cortes en medio de tus llamadas o streaming."
+        },
+        {
+            titulo: "🛠️ Servicio River",
             descripcion: "Limpieza profunda de virus, optimización de sistema y asistencia rápida si tu computadora no arranca o está muy lenta."
         },
         {
-            titulo: "🌐 Servicio Conectado (River)",
-            descripcion: "Configuración y optimización de redes WiFi hogareñas. Chau problemas de señal o cortes en medio de tus llamadas o streaming."
-        },
-        {
-            titulo: "⚙️ Servicio Upgrade (Ocean)",
-            descripcion: "Asesoramiento, armado de PCs a medida y cambio de componentes de hardware (discos SSD, memoria RAM) para revivir tu equipo."
+            titulo: "⚙️ Servicio Ocean",
+            descripcion: "Asesoramiento, armado de PCs a medida y cambio de componentes de hardware (discos SSD, memoria RAM) para revivir o renovar tu equipo."
         }
     ]
 };
