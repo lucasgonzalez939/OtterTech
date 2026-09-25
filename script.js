@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 4. Asignar evento al botón de WhatsApp generado dinámicamente
     const ctaBtn = document.getElementById("cta-btn");
     ctaBtn.addEventListener("click", () => {
-        const urlWhatsApp = `https://wa.me${otterTechContent.contact.whatsappPhone}?text=${encodeURIComponent(otterTechContent.contact.whatsappMessage)}`;
+        const urlWhatsApp = `https://wa.me/${otterTechContent.contact.whatsappPhone}?text=${encodeURIComponent(otterTechContent.contact.whatsappMessage)}`;
         window.open(urlWhatsApp, "_blank");
     });
 });
