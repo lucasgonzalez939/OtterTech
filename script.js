@@ -10,7 +10,7 @@ const otterTechContent = {
     
     // Configuración de Canales de Contacto
     contact: {
-        whatsappPhone: "5491100000000", // REEMPLAZAR con tu número real (sin el +)
+        whatsappPhone: "5491178184479", // REEMPLAZAR con tu número real (sin el +)
         whatsappMessage: "Hola, OtterTech! Necesito ayuda con una computadora.",
         email: "info@ottertech.com.ar",
         buttonText: "¿Necesitás ayuda con tu PC? Escribinos",
